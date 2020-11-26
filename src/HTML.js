@@ -469,7 +469,7 @@ export default class HTML extends PureComponent {
             ]
             .filter((s) => s !== undefined);
 
-            const renderersProps = {};
+            let renderersProps = {};
             if (Wrapper === Text) {
                 renderersProps = textWrapperProps;
             }
